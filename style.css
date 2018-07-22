@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+
+}
+
+a.nav-link {
+  text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+#icon {
+  font-size: 130px;
+  margin-left: 0%;
+}
+
+#achievements {
+  color: rgb(153, 156, 163);
+}
+
+.padding {
+  margin: 5%;
+  padding: 0%;
+}
+
+#social {
+  font-size: 32px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+a:link{
+  text-decoration: none!important;
+}
+
+.nodecoration, a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#footer {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+}
+
+.fa-bars {
+  color: black;
+}
+
+#registerButton {
+  margin-left: 10%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1025px) {
+  #MagicCarousel {
+    width: 60%;
+    height: 60%;
+  }
+}
+
+/* @media screen and (max-width: 415px) {
+  #socialHidden {
+    visibility: hidden;
+  }
+} */
